@@ -1,0 +1,74 @@
+URxvt.scrollBar_right:      true
+URxvt.scrollBar_floating:   true
+URxvt.scrollstyle:          plain
+URxvt.cursorBlink:          true
+URxvt.cursorUnderline:      true
+URxvt.pointerBlank:         true
+URxvt.visualBell:           true
+URxvt.saveLines:            3000
+!URxvt.fading:               40
+
+!! Font list and Spacing
+URxvt.font:                 xft:Ricty:Normal:size=12:antialias=true, \
+                            xft:DejaVu Sans Mono:size=12,\
+                            xft:IPAGothic
+URxvt.letterSpace:          -4
+!URxvt.lineSpace:            0
+
+! Color Scheme and Opacity - gruvbox-dark https://github.com/morhetz/gruvbox
+URxvt.depth:                40
+URxvt.color0:               [90]#282828
+URxvt.color1:               [90]#cc241d
+URxvt.color2:               [90]#98971a
+URxvt.color3:               [90]#d79921
+URxvt.color4:               [90]#458588
+URxvt.color5:               [90]#b16286
+URxvt.color6:               [90]#689d6a
+URxvt.color7:               [90]#a89984
+URxvt.color8:               [90]#928374
+URxvt.color9:               [90]#fb4934
+URxvt.color10:              [90]#b8bb26
+URxvt.color11:              [90]#fabd2f
+URxvt.color12:              [90]#83a598
+URxvt.color13:              [90]#d3869b
+URxvt.color14:              [90]#8ec07c
+URxvt.color15:              [90]#ebdbb2
+!URxvt.foreground:           [90]#ebdbb2
+!URxvt.background:           [90]#282828
+
+!!!from vscode,gpick,neofetch
+!URxvt.color0:      [90]#000000    /* black          */
+!URxvt.color1:      [90]#CD3131    /* red            */
+!URxvt.color2:      [90]#0DBC79    /* green          */
+!URxvt.color3:      [90]#E5E510    /* yellow         */
+!URxvt.color4:      [90]#2472CB    /* blue           */
+!URxvt.color5:      [90]#BC3FBC    /* magenta        */
+!URxvt.color6:      [90]#11A8CD    /* cyan           */
+!URxvt.color7:      [90]#E5E5E5    /* white          */
+!URxvt.color8:      [90]#666666    /* bright black   */
+!URxvt.color9:      [90]#F14C4C    /* bright red     */
+!URxvt.color10:     [90]#23D18B    /* bright green   */
+!URxvt.color11:     [90]#F5F543    /* bright yellow  */
+!URxvt.color12:     [90]#3B8EEA    /* bright blue    */
+!URxvt.color13:     [90]#D670D6    /* bright magenta */
+!URxvt.color14:     [90]#29B8DB    /* bright cyan    */
+!URxvt.color15:     [90]#E5E5E5    /* bright white   */
+URxvt.foreground:           [90]#E5E5E5
+URxvt.background:           [90]#000000
+
+
+
+
+URxvt.colorIT:              [90]#8ec07c
+URxvt.colorBD:              [90]#d5c4a1
+URxvt.colorUL:              [90]#83a598
+URxvt.scrollColor:          [90]#504945
+!URxvt.troughColor:          [90]#3C3836
+
+URxvt.visualBell:          false  !!警告エフェクト（チカチカ）をなくす
+
+!! tabbed (https://github.com/gryf/tabbed)
+URxvt.perl-ext-common:    tabbedex,tabbed,keyboard-select
+URxvt.keysym.Control-t: perl:tabbed:new_tab
+URxvt.keysym.Control-Tab: perl:tabbed:next_tab
+URxvt.keysym.Control-Shift-Tab: perl:tabbed:prev_tab
